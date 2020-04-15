@@ -1,0 +1,8 @@
+{
+  "HTML boilerplate code": {
+    "prefix": "!!",
+    "body": [
+      "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content= \"width=device-width, initial-scale=1.0, shrink-to-fit=no\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\">\n\t<meta http-equiv=\"expires\" content=\"0\">\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\">\n\t<title>${1:Document}</title>\n\t<link rel=\"stylesheet\" href=\"styles/style.css\" />\n</head>\n<body>\n\t<h1>${2:heading}</h1>\n</body>\n</html>"
+    ]
+  }
+}
