@@ -1,0 +1,18 @@
+{
+  "function": {
+    "prefix": "fn",
+    "body": "function ${1:name}(${2:params}) {$3}"
+  },
+  "Anonymous function": {
+    "prefix": "afn",
+    "body": "function(${1:params}){$2}"
+  },
+  "Query selector": {
+    "prefix": "qs",
+    "body": "document.querySelector($1);"
+  },
+  "Console log": {
+    "prefix": "cl",
+    "body": "console.log($1);"
+  }
+}
