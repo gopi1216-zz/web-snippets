@@ -7,15 +7,15 @@
   },
   "Primary button": {
     "prefix": "b:p",
-    "body": "<button type=\"button\" class=\"btn btn-primary\" data-i18n=\"{1:btn.label.submit}\"></button>"
+    "body": "<button type=\"button\" class=\"btn btn-primary\" data-i18n=\"${1:btn.label.submit}\"></button>"
   },
   "Secondary button": {
     "prefix": "b:s",
-    "body": "<button type=\"button\" class=\"btn btn-secondary\" data-i18n=\"{1:btn.label.cancel}\"></button>"
+    "body": "<button type=\"button\" class=\"btn btn-secondary\" data-i18n=\"${1:btn.label.cancel}\"></button>"
   },
   "Image": {
     "prefix": "im",
-    "body": "<img src=\"{1}\" alt=\"{2}\" />"
+    "body": "<img src=\"${1}\" alt=\"${2}\" />"
   },
   "Empty Anchor tag": {
     "prefix": "a:js",
