@@ -5,5 +5,8 @@ All notable changes to the "web-snippets" extension will be documented in this f
 ## [1.0.0]
 - Initial release of Web Snippets extension.
 
-## [1.1.0]
+## [1.0.2]
 - Added all the required snippets to extension.
+
+## [1.0.3]
+- Read me file formated to convey the info in proper manner.
