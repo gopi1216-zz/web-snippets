@@ -10,3 +10,6 @@ All notable changes to the "web-snippets" extension will be documented in this f
 
 ## [1.0.3]
 - Read me file formated to convey the info in proper manner.
+
+## [1.0.4]
+- Snippets are appended to HTML list for input tags.

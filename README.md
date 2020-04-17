@@ -5,11 +5,15 @@ This is the vscode extension for UI developers to speed up you're routine work a
 ## Documentation
 ### Shortcuts in **`[.html]`** file:
 ```
-!!   - HTML Boilerplate code.
+!!   - HTML Boilerplate code
 b:p  - Primary button in with BS4 class names
 b:s  - Secondary button in with BS4 class names
 im   - Create image tag
-a:js - Create Anchor tag with js href.
+a:j  - Create Anchor tag with js href
+in   - Create Form 'text' field
+in:e - Create Form 'email' field
+in:n - Create Form 'number' field
+in:p - Create Form 'password' field
 ```
 
 ### Shortcuts in **`[.css]`** file:
