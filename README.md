@@ -35,8 +35,11 @@ bs   - Box sizing
 
 ### Shortcuts in **`[.js]`** file:
 ```
-fn  - create named function
-afn - create anonymous function
+fn  - Create named function
+af  - Create anonymous function
 qs  - Query selector
 cl  - Console log
+ac  - Create Add class expresion in JQuery
+rc  - Create Remove class expresion in JQuery
+tc  - Create Toggle class expresion in JQuery
 ```
