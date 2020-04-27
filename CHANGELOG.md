@@ -17,3 +17,6 @@ All notable changes to the "web-snippets" extension will be documented in this f
 ## [1.0.5]
 - HTML snippet bugs are fixed.
 - Few snippets are added to JS language.
+
+## [1.0.6]
+- New CSS snippets re added.

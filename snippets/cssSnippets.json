@@ -50,5 +50,33 @@
   "Box sizing": {
     "prefix": "bz",
     "body": "box-sizing: border-box;"
+  },
+  "Mask Image": {
+    "prefix": "mi",
+    "body": "mask-image: url(${1});\n-webkit-mask-image: url(${2});"
+  },
+  "Mask size": {
+    "prefix": "ms",
+    "body": "mask-size: ${1:contain};\n-webkit-mask-size: ${2:contain};"
+  },
+  "Mask position": {
+    "prefix": "mp",
+    "body": "mask-position: ${1:center};\n-webkit-mask-position: ${2:center};"
+  },
+  "Mask repeat": {
+    "prefix": "mr",
+    "body": "mask-repeat: ${1:no-repeat};\n-webkit-mask-repeat: ${2:no-repeat};"
+  },
+  "Mask Shorthand property": {
+    "prefix": "m",
+    "body": "mask: url(${1}) no-repeat center;\n-webkit-mask: url(${2}) no-repeat center;"
+  },
+  "Background Shorthand property": {
+    "prefix": "bg",
+    "body": "background: url(${1}) no-repeat center;"
+  },
+  "Font": {
+    "prefix": "f",
+    "body": "font: ${1:1rem}/1.5 \"${2:OS}\";"
   }
 }

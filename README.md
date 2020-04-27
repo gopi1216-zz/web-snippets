@@ -31,6 +31,13 @@ oln  - Outline none
 bs   - Apply box shadow
 bs:n - To unset/remove box shadow
 bs   - Box sizing
+ms   - Create mask-size property
+mi   - Create mask-image property
+mp   - Create mask-position property
+mr   - Create mask-repeat property
+m    - Create Mask shorthand property
+bg    - Create Background shorthand property
+f    - Create font short hand property
 ```
 
 ### Shortcuts in **`[.js]`** file:
