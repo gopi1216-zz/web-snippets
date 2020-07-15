@@ -18,8 +18,8 @@
     "body": "<img src=\"${1:src}\" alt=\"${2:alt text}\" />"
   },
   "Empty Anchor tag": {
-    "prefix": "a:j",
-    "body": "<a href=\"javascript:;\"></a>"
+    "prefix": "a",
+    "body": "<a href=\"javascript:;\" role=\"button\"></a>"
   },
   "Text field": {
     "prefix": "in",
@@ -36,5 +36,9 @@
   "Password field": {
     "prefix": "in:p",
     "body": "<input type=\"password\" placeholder=\"${1:Password}\" required />"
+  },
+  "Modal Content": {
+    "prefix": "bs-modal",
+    "body": "<div class=\"modal-dialog\" role=\"document\">\n\t<div class=\"modal-content\">\n\t<div class=\"modal-header\">\n\t<h5 class=\"modal-title\">${1:Modal title}</h5></div>\n<div class=\"modal-body\">${2:Modal body}</div>\n<div class=\"modal-footer\"></div>\n</div>\n</div>"
   }
 }

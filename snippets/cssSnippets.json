@@ -32,7 +32,7 @@
     "body": "margin: ${1:1rem} 0;"
   },
   "Remove outline": {
-    "prefix": "oln",
+    "prefix": "on",
     "body": "outline: none;"
   },
   "Remove float": {
@@ -40,7 +40,7 @@
     "body": "float: none;"
   },
   "Box shadow": {
-    "prefix": "bs",
+    "prefix": "bsd",
     "body": "box-shadow: ${1:0} ${2:0} ${3:0} rgba(0, 0, 0, ${4:0.1});"
   },
   "Remove Box shadow": {
@@ -48,7 +48,7 @@
     "body": "box-shadow: none;"
   },
   "Box sizing": {
-    "prefix": "bz",
+    "prefix": "bsz",
     "body": "box-sizing: border-box;"
   },
   "Mask Image": {
@@ -69,11 +69,11 @@
   },
   "Mask Shorthand property": {
     "prefix": "m",
-    "body": "mask: url(${1}) no-repeat center;\n-webkit-mask: url(${2}) no-repeat center;"
+    "body": "mask: url(${1}) no-repeat center;\n-webkit-mask: url(${2}) no-repeat center/contain;"
   },
   "Background Shorthand property": {
     "prefix": "bg",
-    "body": "background: url(${1}) no-repeat center;"
+    "body": "background: url(${1}) no-repeat center/contain;"
   },
   "Font": {
     "prefix": "f",
