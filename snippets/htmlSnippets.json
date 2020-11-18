@@ -14,31 +14,39 @@
     "body": "<button type=\"button\" class=\"btn btn-secondary\" id=\"${1:btnCancel}\" data-i18n=\"${2:btn.label.cancel}\"></button>"
   },
   "Image": {
-    "prefix": "im",
-    "body": "<img src=\"${1:src}\" alt=\"${2:alt text}\" />"
+    "prefix": ":img",
+    "body": "<img src=\"${1:src}\" alt=\"${2:alt text}\">"
   },
   "Empty Anchor tag": {
-    "prefix": "a",
+    "prefix": ":a",
     "body": "<a href=\"javascript:;\" role=\"button\"></a>"
   },
   "Text field": {
-    "prefix": "in",
-    "body": "<input type=\"text\" placeholder=\"${1:Name}\" />"
+    "prefix": "i:t",
+    "body": "<label for=\"${1:firstName}\">${2:First Name}</label>\n<input type=\"text\" id=\"${3:firstName}\" placeholder=\"${4:Enter your Name}\">"
   },
   "Email field": {
-    "prefix": "in:e",
-    "body": "<input type=\"email\" placeholder=\"${1:Email}\" />"
-  },
-  "Number field": {
-    "prefix": "in:n",
-    "body": "<input type=\"number\" placeholder=\"${1:Number}\" />"
+    "prefix": "i:e",
+    "body": "<label for=\"${1:email}\">${2:Email}</label>\n<input type=\"email\" id=\"email\" placeholder=\"${1:Enter your Email}\">"
   },
   "Password field": {
-    "prefix": "in:p",
-    "body": "<input type=\"password\" placeholder=\"${1:Password}\" required />"
+    "prefix": "i:p",
+    "body": "<label for=\"${1:password}\">${2:Password}</label>\n<input type=\"password\" id=\"password\" placeholder=\"${1:Enter your Password}\">"
   },
   "Modal Content": {
-    "prefix": "bs-modal",
-    "body": "<div class=\"${1:container-component} modal-dialog\" role=\"document\" id=\"c_${2:id}\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-header\">\n\t\t\t<h5 class=\"modal-title\">Modal title</h5>\n\t\t</div>\n\t\t<div class=\"modal-body\">Modal body</div>\n\t\t<div class=\"modal-footer\">Modal Footer</div>\n\t</div>\n</div>"
+    "prefix": ":modal",
+    "body": "<div class=\"${1:container-component} modal-dialog\" role=\"document\" id=\"c_${2:id}\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-header\">\n\t\t\t<h5 class=\"modal-title\">Modal title</h5>\n\t\t</div>\n\t\t<div class=\"modal-body\">Modal body</div>\n\t\t<div class=\"modal-footer\">\n\t<button type=\"button\" data-dismiss=\"modal\">Close</button>\n\t</div>\n\t</div>\n</div>"
+  },
+  "Base layout": {
+    "prefix": ":l",
+    "body": "<main>\n\t<header></header>\n\t<article></article>\n\t<footer></footer>\n</main>"
+  },
+  "Page layout": {
+    "prefix": "p:l",
+    "body": "<section class=\"page-content\">\n\t<div class=\"page-header\"></div>\n\t<div class=\"page-body\"></div>\n\t<div class=\"page-footer\"></div>\n</section>"
+  },
+  "Icon": {
+    "prefix": ":i",
+    "body": "<i class=\"icon\"></i>"
   }
 }

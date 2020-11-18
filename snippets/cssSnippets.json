@@ -47,10 +47,6 @@
     "prefix": "bs:n",
     "body": "box-shadow: none;"
   },
-  "Box sizing": {
-    "prefix": "bsz",
-    "body": "box-sizing: border-box;"
-  },
   "Mask Image": {
     "prefix": "mi",
     "body": "mask-image: url(${1});\n-webkit-mask-image: url(${2});"
@@ -68,15 +64,17 @@
     "body": "mask-repeat: ${1:no-repeat};\n-webkit-mask-repeat: ${2:no-repeat};"
   },
   "Mask Shorthand property": {
-    "prefix": "m",
+    "prefix": ":m",
     "body": "mask: url(${1}) no-repeat center;\n-webkit-mask: url(${2}) no-repeat center/contain;"
   },
   "Background Shorthand property": {
-    "prefix": "bg",
+    "prefix": ":bg",
     "body": "background: url(${1}) no-repeat center/contain;"
   },
   "Font": {
-    "prefix": "f",
+    "prefix": ":f",
     "body": "font: ${1:1rem}/1.5 \"${2:OS}\";"
-  }
+  },
+  "Flex element": ":df",
+  "body": "display: flex;\njustify-content: center;\nalign-items: center;"
 }
