@@ -1,6 +1,6 @@
 {
   "HTML boilerplate code": {
-    "prefix": "!!",
+    "prefix": ":html",
     "body": [
       "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content= \"width=device-width, initial-scale=1.0, shrink-to-fit=no\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\">\n\t<meta http-equiv=\"expires\" content=\"0\">\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\">\n\t<title>${1:Document}</title>\n\t<link rel=\"stylesheet\" href=\"styles/style.css\">\n</head>\n<body>\n\t<h1>${2:heading}</h1>\n</body>\n</html>"
     ]
@@ -35,7 +35,7 @@
   },
   "Modal Content": {
     "prefix": ":modal",
-    "body": "<div class=\"${1:container-component} modal-dialog\" role=\"document\" id=\"c_${2:id}\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-header\">\n\t\t\t<h5 class=\"modal-title\">Modal title</h5>\n\t\t</div>\n\t\t<div class=\"modal-body\">Modal body</div>\n\t\t<div class=\"modal-footer\">\n\t<button type=\"button\" data-dismiss=\"modal\">Close</button>\n\t</div>\n\t</div>\n</div>"
+    "body": "<div class=\"${1:container-component} modal-dialog\" role=\"document\" id=\"c_${2:id}\">\n\t<div class=\"modal-content\">\n\t\t<div class=\"modal-header\">\n\t\t\t<h5 class=\"modal-title\">Modal title</h5>\n\t\t</div>\n\t\t<div class=\"modal-body\">Modal body</div>\n\t\t<div class=\"modal-footer\">\n\t\t\t<button type=\"button\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t</div>\n</div>"
   },
   "Base layout": {
     "prefix": ":l",

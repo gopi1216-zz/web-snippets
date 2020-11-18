@@ -75,6 +75,8 @@
     "prefix": ":f",
     "body": "font: ${1:1rem}/1.5 \"${2:OS}\";"
   },
-  "Flex element": ":df",
-  "body": "display: flex;\njustify-content: center;\nalign-items: center;"
+  "Flex element": {
+    "prefix": ":df",
+    "body": "display: flex;\njustify-content: center;\nalign-items: center;"
+  }
 }
