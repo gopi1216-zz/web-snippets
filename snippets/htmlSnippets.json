@@ -6,15 +6,15 @@
     ]
   },
   "Primary button": {
-    "prefix": "b:p",
-    "body": "<button type=\"button\" class=\"btn btn-primary\" id=\"${1:btnSubmit}\" data-i18n=\"${2:btn.label.submit}\"></button>"
+    "prefix": ":bp",
+    "body": "<button type=\"button\" class=\"btn btn-primary\" id=\"btnSubmit\">Submit</button>"
   },
   "Secondary button": {
-    "prefix": "b:s",
-    "body": "<button type=\"button\" class=\"btn btn-secondary\" id=\"${1:btnCancel}\" data-i18n=\"${2:btn.label.cancel}\"></button>"
+    "prefix": ":bs",
+    "body": "<button type=\"button\" class=\"btn btn-secondary\" id=\"btnCancel\">Cancel</button>"
   },
   "Image": {
-    "prefix": ":img",
+    "prefix": ":im",
     "body": "<img src=\"${1:src}\" alt=\"${2:alt text}\">"
   },
   "Empty Anchor tag": {
@@ -22,15 +22,15 @@
     "body": "<a href=\"javascript:;\" role=\"button\"></a>"
   },
   "Text field": {
-    "prefix": "i:t",
+    "prefix": ":it",
     "body": "<label for=\"${1:firstName}\">${2:First Name}</label>\n<input type=\"text\" id=\"${3:firstName}\" placeholder=\"${4:Enter your Name}\">"
   },
   "Email field": {
-    "prefix": "i:e",
+    "prefix": ":ie",
     "body": "<label for=\"${1:email}\">${2:Email}</label>\n<input type=\"email\" id=\"email\" placeholder=\"${1:Enter your Email}\">"
   },
   "Password field": {
-    "prefix": "i:p",
+    "prefix": ":ip",
     "body": "<label for=\"${1:password}\">${2:Password}</label>\n<input type=\"password\" id=\"password\" placeholder=\"${1:Enter your Password}\">"
   },
   "Modal Content": {
@@ -42,7 +42,7 @@
     "body": "<main>\n\t<header></header>\n\t<article></article>\n\t<footer></footer>\n</main>"
   },
   "Page layout": {
-    "prefix": "p:l",
+    "prefix": ":pl",
     "body": "<section class=\"page-content\">\n\t<div class=\"page-header\"></div>\n\t<div class=\"page-body\"></div>\n\t<div class=\"page-footer\"></div>\n</section>"
   },
   "Icon": {

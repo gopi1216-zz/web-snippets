@@ -1,30 +1,30 @@
 {
   "function": {
-    "prefix": "fn",
+    "prefix": ":fn",
     "body": "function ${1:name}(${2:params}) {$3}"
   },
   "Anonymous function": {
-    "prefix": "af",
+    "prefix": ":af",
     "body": "function(${1:params}){$2}"
   },
   "Query selector": {
-    "prefix": "qs",
+    "prefix": ":qs",
     "body": "document.querySelector($1);"
   },
   "Console log": {
-    "prefix": "cl",
+    "prefix": ":cl",
     "body": "console.log($1);"
   },
   "Add Class": {
-    "prefix": "ac",
+    "prefix": ":ac",
     "body": "$('${1:selector}').addClass('${2:classname}');"
   },
   "Remove Class": {
-    "prefix": "rc",
+    "prefix": ":rc",
     "body": "$('${1:selector}').addClass('${2:classname}');"
   },
   "Toggle Class": {
-    "prefix": "tc",
+    "prefix": ":tc",
     "body": "$('${0:selector}').addClass('${1:classname}');"
   }
 }
